@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(140deg, #074444, #278396);
+
+    /* Centraliza o texto horizontalmente */
+    text-align: center;
+}
+
+
+header {
+    /* Torna o cabeçalho fixo no topo da página */
+    position: fixed;
+    top: 0%; /* Posiciona o topo do cabeçalho no topo da página */
+    left: 0%; /* Posiciona a esquerda do cabeçalho no início da página */
+    width: 100%; /* Define a largura do cabeçalho para cobrir toda a largura da página */
+    height: 10%; /* Define a altura do cabeçalho para 10% da altura da página */
+}
+nav {
+    /* Torna o menu de navegação fixo abaixo do cabeçalho */
+    position: fixed;
+    top: 15%; /* Posiciona o topo do menu de navegação logo abaixo do cabeçalho */
+    left: 0%; /* Posiciona a esquerda do menu de navegação no início da página */
+    width: 100%; /* Define a largura do menu de navegação para cobrir toda a largura da página */
+    height: 10%; /* Define a altura do menu de navegação para 10% da altura da página */
+    z-index: 2; /* Define a camada de empilhamento para garantir que o menu esteja acima da área principal (main) */
+    
+}
+
+main {
+    /* Torna a área principal de conteúdo fixa abaixo do menu de navegação */
+    position: fixed;
+    top: 20%; /* Posiciona o topo da área principal logo abaixo do menu de navegação */
+    left: 10%; /* Posiciona a esquerda da área principal no início da página */
+    width: 100%; /* Define a largura da área principal para cobrir toda a largura da página */
+    height: 70%; /* Define a altura da área principal para 70% da altura da página */
+    text-align: left; /* Alinha o texto à esquerda dentro da área principal */
+    margin-left: 5%; /* Adiciona uma margem à esquerda da área principal para criar um espaço */
+    overflow: auto; /* Adiciona barras de rolagem se o conteúdo exceder a altura ou largura da área */
+    z-index: 1; /* Define a camada de empilhamento para garantir que a área principal esteja abaixo do menu de navegação */
+}
+
+/* Define o estilo para o rodapé da página */
+footer {
+    /* Torna o rodapé fixo na parte inferior da página */
+    position: fixed;
+    top: 90%; /* Posiciona o topo do rodapé na parte inferior da página */
+    left: 0%; /* Posiciona a esquerda do rodapé no início da página */
+    width: 100%; /* Define a largura do rodapé para cobrir toda a largura da página */
+    height: 10%; /* Define a altura do rodapé para 10% da altura da página */
+}
+.xyz {
+    width: 45%;
+    text-align: justify;
+}
+.xy {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to bottom, #ffffff, #07d3ea);
+    padding: 20px;
+    border-radius: 35px;
+    margin-top: 50px;
+    margin-left: 350px;
+   
+}
+.xy input[type="number"] {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 16px;
+    width: 50px;
+    margin-left: 15px;
+}
+.button {
+    min-width: 120px;
+    position: relative;
+    cursor: pointer;
+    padding: 12px 17px;
+    border: 0;
+    border-radius: 7px;
+}
+.abc {
+    margin-top: 20px;
+}
+.verm {
+    font-size: xx-large;
+    color: red;
+}
+.verd {
+    font-size: xx-large;
+    color: green;
+}
+
