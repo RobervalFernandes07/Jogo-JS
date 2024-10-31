@@ -1,5 +1,7 @@
 🎮 Jogo de Lógica em JavaScript
-Bem-vindo ao repositório do Jogo de Lógica em JavaScript! Este projeto oferece uma experiência divertida e desafiadora para treinar suas habilidades de raciocínio lógico, com uma série de fases que devem ser completadas com base na correta soma dos valores em cada fase.
+
+Bem-vindo ao repositório do Jogo de Lógica em JavaScript! 
+Este projeto oferece uma experiência divertida e desafiadora para treinar suas habilidades de raciocínio lógico, com uma série de fases que devem ser completadas com base na correta soma dos valores em cada fase.
 
 📜 Sobre o Projeto
 Este jogo é baseado em um quebra-cabeça lógico onde o jogador precisa preencher valores para que a soma em linhas, colunas e blocos específicos atinja um número fixo (ex: 45). Com várias fases organizadas em pastas, o jogador pode avançar para a próxima fase ao completar os desafios corretamente.
@@ -11,6 +13,7 @@ Sistema de Avanço de Fase: Ao completar uma fase corretamente, o jogador avanç
 Design Interativo: Interface simples e intuitiva, permitindo foco no desafio lógico.
 🗂 Estrutura do Projeto
 Cada fase do jogo está organizada em pastas separadas. A estrutura é a seguinte:
+
 
 JogoJS/
 │
@@ -25,6 +28,7 @@ JogoJS/
 │   └── script.js    # Lógica de validação e passagem para a próxima fase
 │
 └── fase3/ ...       # Demais fases seguem o mesmo padrão
+
 
 
 📖 Instruções de Jogo
