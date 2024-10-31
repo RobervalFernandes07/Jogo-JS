@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fase 2</title>
+</head>
+<body>
+    <header>
+        <h1>Use a matemática no jogo de soma em JavaScript</h1>
+    </header>
+
+    <nav>
+        <h2>Preencha os campos abaixo com números de 1 a 4 
+            Para que cada linha, coluna, cada diagonal e cada quadrante
+            tenha os números 1, 2, 3 e 4!
+        </h2>
+    </nav>
+
+    <main>
+        <div class="main-wrapper">
+            <form class="xy">
+                <input type="number" name="a1" size="1" min="1" max="4" class="q1">
+                <input type="number" name="b1" size="1" min="1" max="4" class="q1">
+                <input type="number" name="c1" size="1" min="1" max="4" class="q2">
+                <input type="number" name="d1" size="1" min="1" max="4" class="q2">
+                <br>
+                <input type="number" name="a2" size="1" min="1" max="4" class="q1">
+                <input type="number" name="b2" size="1" min="1" max="4" class="q1">
+                <input type="number" name="c2" size="1" min="1" max="4" class="q2">
+                <input type="number" name="d2" size="1" min="1" max="4" class="q2">
+                <br>
+                <input type="number" name="a3" size="1" min="1" max="4" class="q3">
+                <input type="number" name="b3" size="1" min="1" max="4" class="q3">
+                <input type="number" name="c3" size="1" min="1" max="4" class="q4">
+                <input type="number" name="d3" size="1" min="1" max="4" class="q4">
+                <br>
+                <input type="number" name="a4" size="1" min="1" max="4" class="q3">
+                <input type="number" name="b4" size="1" min="1" max="4" class="q3">
+                <input type="number" name="c4" size="1" min="1" max="4" class="q4">
+                <input type="number" name="d4" size="1" min="1" max="4" class="q4">
+                <br>
+                <input type="submit" value="Testar" class="bt" onclick="jogo(); return false;">
+            </form>
+        </div>
+
+        <div id="resu" class="abc"></div>
+    </main>
+    
+    <script src="./Script.js"></script>    
+</body>
+</html>

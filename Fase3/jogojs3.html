@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fase 3</title>
+</head>
+<body>
+
+    <header>
+        <h1>Use a matemática no jogo de soma em JavaScript</h1>
+    </header>
+    <nav>
+        <h2>Preencha os campos abaixo com números de 1 a 4 
+            Para que cada linha, coluna, cada diagonal e cada quadrante
+            tenha os números 1, 2, 3 e 4!
+        </h2>
+    </nav>
+
+    <main>
+        <div class="xyz">
+          
+            <div class="xy">
+                <input type="number" name="a1" size="1" min="1" max="5" class="fm">
+                <input type="number" name="b1" size="1" min="1" max="5" class="fm">
+                <input type="number" name="c1" size="1" min="1" max="5" class="fm">
+                <input type="number" name="d1" size="1" min="1" max="5" class="fm">
+                <input type="text" name="e1" size="3" value="2" disabled class="tr">
+                <br>
+                <input type="number" name="a2" size="1" min="1" max="5" class="fm">
+                <input type="number" name="b2" size="1" min="1" max="5" class="fm">
+                <input type="number" name="c2" size="1" min="1" max="5" class="fm">
+                <input type="text" name="d2" size="3" value="1" disabled class="tr">
+                <input type="number" name="e2" size="1" min="1" max="5" class="fm">
+                <br>
+                <input type="number" name="a3" size="1" min="1" max="5" class="fm">
+                <input type="number" name="b3" size="1" min="1" max="5" class="fm">
+                <input type="text" name="c3" size="3" value="3" disabled class="tr">
+                <input type="number" name="d3" size="1" min="1" max="5" class="fm">
+                <input type="number" name="e3" size="1" min="1" max="5" class="fm">
+                <br>
+                <input type="number" name="a4" size="1" min="1" max="5" class="fm">
+                <input type="text" name="b4" size="3" value="5" disabled class="tr">
+                <input type="number" name="c4" size="1" min="1" max="5" class="fm">
+                <input type="number" name="d4" size="1" min="1" max="5" class="fm">
+                <input type="number" name="e4" size="1" min="1" max="5" class="fm">
+                <br>
+                <input type="text" name="a5" size="3" value="4" disabled class="tr">
+                <input type="number" name="b5" size="1" min="1" max="5" class="fm">
+                <input type="number" name="c5" size="1" min="1" max="5" class="fm">
+                <input type="number" name="d5" size="1" min="1" max="5" class="fm">
+                <input type="number" name="e5" size="1" min="1" max="5" class="fm">
+                <br>
+                <input type="submit" value="Testar" class="bt" onclick="jogo(); return false;">
+            </div>
+        </div>
+
+        <div id="resu" class="abc"></div>
+    </main>
+    <script src="./Script.js"></script>
+</body>
+</html>
