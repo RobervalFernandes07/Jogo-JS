@@ -9,10 +9,10 @@ colunas e blocos específicos atinja um número fixo (ex: 45). Com várias fases
 o jogador pode avançar para a próxima fase ao completar os desafios corretamente.
 
   🚀 Funcionalidades
-# Desafios Incrementais: Cada fase é mais complexa que a anterior, incentivando o raciocínio lógico progressivo.
-# Validação Automática: O jogo verifica automaticamente se as somas estão corretas e fornece feedback.
-# Sistema de Avanço de Fase: Ao completar uma fase corretamente, o jogador avança automaticamente para a próxima.
-# Design Interativo: Interface simples e intuitiva, permitindo foco no desafio lógico.
+ Desafios Incrementais: Cada fase é mais complexa que a anterior, incentivando o raciocínio lógico progressivo.
+ Validação Automática: O jogo verifica automaticamente se as somas estão corretas e fornece feedback.
+ Sistema de Avanço de Fase: Ao completar uma fase corretamente, o jogador avança automaticamente para a próxima.
+ Design Interativo: Interface simples e intuitiva, permitindo foco no desafio lógico.
 
   🗂 Estrutura do Projeto
 Cada fase do jogo está organizada em pastas separadas. A estrutura é a seguinte:
